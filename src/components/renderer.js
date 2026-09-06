@@ -35,3 +35,27 @@ function renderSection(sectionData, titleId, descriptionId) {
   renderText(titleId, sectionData.section);
   renderText(descriptionId, sectionData.description);
 }
+
+function renderEntries(sectionData, containerId) {
+  const container = document.getElementById(containerId);
+
+  if (!container || !sectionData || !Array.isArray(sectionData.entries)) {
+    return;
+  }
+
+  container.innerHTML = "";
+
+  sectionData.entries.forEach((entry) => {
+    const article = document.createElement("article");
+    article.className = "diario-entry";
+
+    article.innerHTML = `
+      <span class="d-date">${entry.date || ""}</span>
+      <span class="d-category">${entry.category || ""}</span>
+      <h3>${entry.title || ""}</h3>
+      <p>${entry.excerpt || ""}</p>
+    `;
+
+    container.appendChild(article);
+  });
+}
