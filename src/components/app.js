@@ -26,4 +26,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     "guias-title",
     "guias-description"
   );
+   renderEntries(
+    data.diario,
+    "diario-entries"
+  );
 });
