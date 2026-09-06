@@ -1,5 +1,13 @@
 {
   "section": "Diário GBG",
   "description": "Pensamentos, experiências, aprendizados e acontecimentos registrados ao longo da jornada.",
-  "entries": []
+  "entries": [
+    {
+      "title": "Primeira entrada",
+      "category": "Vida",
+      "date": "2026-09-06",
+      "excerpt": "Um espaço para registrar pensamentos, experiências e acontecimentos da minha jornada.",
+      "content": "Este é o primeiro registro do Diário GBG."
+    }
+  ]
 }
