@@ -1,0 +1,18 @@
+{
+  "site": {
+    "name": "GBG Universe",
+    "author": "Gabriele Borges Grassioli",
+    "description": "Um universo de ideias, experiências, carreira, estudos, viagens e construção de uma vida extraordinária.",
+    "language": "pt-BR"
+  },
+  "navigation": {
+    "home": "Início",
+    "diario": "Diário",
+    "stories": "Stories",
+    "guias": "Guias"
+  },
+  "footer": {
+    "copyright": "© 2026 Gabriele Borges Grassioli",
+    "phrase": "Origem não determina destino."
+  }
+}
