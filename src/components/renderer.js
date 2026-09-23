@@ -53,7 +53,7 @@ function renderEntries(sectionData, containerId) {
       <span class="d-date">${entry.date || ""}</span>
       <span class="d-category">${entry.category || ""}</span>
       <h3>${entry.title || ""}</h3>
-      <p>${entry.excerpt || ""}</p>
+      <p>${entry.content || entry.excerpt || ""}</p>
     `;
 
     container.appendChild(article);
